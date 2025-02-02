@@ -16,7 +16,7 @@ class Armas:
 
         if jugador.flip:
             self.forma.x -= jugador.forma.width / 2
-            self.rotararma(True)  # Rotar cuando el personaje esté volteado
+            self.rotararma(True)  # Rotar cuando el personaje esté volteado her
         else:
             self.forma.x += jugador.forma.width / 2
             self.rotararma(False)
