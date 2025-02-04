@@ -14,5 +14,9 @@ FPS = 60
 velocidad_personaje = 5
 colorarma = 255,0,0
 
-escala_del_personaje = 1.6
-escala_del_arma = 0.03
+escala_del_personaje = 1
+escala_del_arma = 0.02
+
+
+velocidad_bala= 10
+escalaenemigos = 0.5

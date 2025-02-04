@@ -8,7 +8,8 @@ class Personaje():
     #Cuando creamos un personaje le pasamos las coordenadas x y le damos un tamaño
 
 
-    def __init__(self,x,y , animaciones):
+    def __init__(self,x,y , animaciones,energia ):
+        self.energia = energia
         #VOlteo del persoanje varialbke
         self.flip = False
         #Animaciones lista
